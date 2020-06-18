@@ -1,0 +1,165 @@
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	font-size: 1em;
+	max-width: 1200px;
+	width: 90%;
+	flex-flow: row wrap;
+	padding: 0 5%;
+}
+
+html	{
+	font-size: 16px;
+}
+
+.container{
+	max-width: 1200px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+h1, h2, h3, h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+	font-size: 1.125em;
+}
+h4 {
+	font-size: 0.75em;
+}
+p {
+	font-size: 0.875em;
+}
+
+/*The widths are in a percentage!*/
+header {
+	max-width: 1200px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+	flex-direction: column;
+}
+
+header h1 {
+	padding-top: 1em;
+}
+header h1 span {
+	color: #77a466;
+}
+header h2	{
+	border-bottom: 0.1875rem solid #77a466;
+	width: 100%
+}
+header nav ul	{
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.875em;
+	line-height: 3em;
+	list-style: none;
+	text-align: center;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	max-width: 1200px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.main-image {
+	height: auto;
+}
+.main-image img {
+	width: 100%;
+	border-top: 0.1875em solid #77a466;
+	border-bottom: 0.1875em solid #77a466;
+	padding: 0;
+}
+
+.main-title h3 {
+	text-align: left;
+	color: #77a466;
+}
+.main-title p {
+	font-size: 1em;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #eee;
+	flex-wrap: wrap;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 0.625em 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+}
+
+.address {
+	font-size: 1em;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	border-top: 0.1875em solid #eee;
+	max-width: 1200px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875em;
+}
+
+
+
+
+
+@media screen and (min-width: 786px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
